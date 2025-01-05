@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westnedge Family Office</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Westnedge Family Office</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>About Us</h2>
+            <p>Westnedge Family Office is dedicated to managing the wealth and investments of the Westnedge family. Our mission is to preserve and grow our family's legacy through strategic investments and careful financial planning.</p>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Investment Management</li>
+                <li>Financial Planning</li>
+                <li>Estate Planning</li>
+                <li>Tax Advisory</li>
+                <li>Philanthropic Advisory</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Westnedge Family Office. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
